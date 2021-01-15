@@ -12,10 +12,36 @@ html {
 
 body {
   font-family: "Muli", sans-serif;
+  text-align: center;
   font-size: 1.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.key {
+  border: 1px solid #999999;
+  background-color: #eee;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  font-size: 2rem;
+  padding: 2rem;
+  flex-direction: column;
+  font-weight: bold;
+  min-width: 15rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.key small {
+  position: absolute;
+  top: -24px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #555555;
+  font-size: 1.4rem;
 }
